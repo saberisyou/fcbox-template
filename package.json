@@ -1,35 +1,40 @@
 {
-  "name": "fcbox-cli",
-  "version": "1.0.0",
-  "main": "main.js",
-  "git": "github:saberisyou/fcbox-template#master",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "fcbox-cli": "./bin/app.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "react-frame",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "chalk": "^4.1.1",
-    "clear": "^0.1.0",
-    "cli-table2": "^0.2.0",
-    "commander": "^7.2.0",
-    "download-git-repo": "^3.0.2",
-    "figlet": "^1.5.0",
-    "handlebars": "^4.7.7",
-    "inquirer": "^8.1.0",
-    "open": "^8.1.0",
-    "ora": "^5.4.0",
-    "sequelize": "^6.6.2",
-    "sequelize-cli": "^6.2.0",
-    "superagent": "^6.1.0",
-    "zdex-downloadgitrepo": "^1.2.0"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.15.1",
+    "qiankun": "^2.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   },
-  "directories": {
-    "lib": "lib"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {},
-  "description": ""
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
